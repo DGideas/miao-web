@@ -1,4 +1,5 @@
 <?php
+	//header('location:http://121.42.141.42/miao/update.php');
 	if (!isset($_COOKIE["token"])){
 		header('location:http://121.42.141.42/miao/login.php');
 	}else
